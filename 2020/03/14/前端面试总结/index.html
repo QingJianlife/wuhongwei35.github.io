@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>前端面试总结 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="面试总结HTML及CSS3标准盒模型与IE和模型12（1）盒子模型有两种：IE盒子模型、标准W3C盒子模型；IE的content部分包含了border和pading。 （2）标准W3C盒模型包含：内容(content)、填充(padding)、边界(margin)、边框(border) 插入多张照片问题12原因: 凡是带有inline的元素,都带有文字特性,会留有4px的间隙解绝: margin-">
+<meta property="og:type" content="article">
+<meta property="og:title" content="前端面试总结">
+<meta property="og:url" content="http://yoursite.com/2020/03/14/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="面试总结HTML及CSS3标准盒模型与IE和模型12（1）盒子模型有两种：IE盒子模型、标准W3C盒子模型；IE的content部分包含了border和pading。 （2）标准W3C盒模型包含：内容(content)、填充(padding)、边界(margin)、边框(border) 插入多张照片问题12原因: 凡是带有inline的元素,都带有文字特性,会留有4px的间隙解绝: margin-">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-03-14T09:29:39.000Z">
+<meta property="article:modified_time" content="2020-03-14T09:36:32.885Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-前端面试总结" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/03/14/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/" class="article-date">
+  <time datetime="2020-03-14T09:29:39.000Z" itemprop="datePublished">2020-03-14</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      前端面试总结
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="面试总结"><a href="#面试总结" class="headerlink" title="面试总结"></a>面试总结</h2><h2 id="HTML及CSS3"><a href="#HTML及CSS3" class="headerlink" title="HTML及CSS3"></a>HTML及CSS3</h2><h4 id="标准盒模型与IE和模型"><a href="#标准盒模型与IE和模型" class="headerlink" title="标准盒模型与IE和模型"></a>标准盒模型与IE和模型</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">（1）盒子模型有两种：IE盒子模型、标准W3C盒子模型；IE的content部分包含了border和pading。 </span><br><span class="line">（2）标准W3C盒模型包含：内容(content)、填充(padding)、边界(margin)、边框(border)</span><br></pre></td></tr></table></figure>
+<h4 id="插入多张照片问题"><a href="#插入多张照片问题" class="headerlink" title="插入多张照片问题"></a>插入多张照片问题</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">原因: 凡是带有inline的元素,都带有文字特性,会留有4px的间隙</span><br><span class="line">解绝: margin-left:-5px</span><br></pre></td></tr></table></figure>
+<h4 id="定位区别"><a href="#定位区别" class="headerlink" title="定位区别:"></a>定位区别:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">position:absolute  脱离文档流,相对于最近有定位的父级进行定位,没有,相对于文档定位</span><br><span class="line">position:relative  保留原来位置,相对于原来的位置进行定位</span><br><span class="line">position:fixed     相对于浏览器定位</span><br></pre></td></tr></table></figure>
+<h4 id="两个盒子嵌套出现塌陷问题-边框重叠问题"><a href="#两个盒子嵌套出现塌陷问题-边框重叠问题" class="headerlink" title="两个盒子嵌套出现塌陷问题(边框重叠问题)"></a>两个盒子嵌套出现塌陷问题(边框重叠问题)</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">出现的问题:子盒子会左右移动,上下不能移动</span><br><span class="line">解决方案:</span><br><span class="line">  1) 给父盒子加外边框       eg:  border:1px solid red</span><br><span class="line">  2) 给父盒子加内边距1px    eg:  padding:1px</span><br><span class="line">  3) overflow:hidden        eg:  overflow:hidden</span><br><span class="line">  4) .父盒子::before&#123;</span><br><span class="line">       content:&#39;&#39;;</span><br><span class="line">       display:table;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<h4 id="盒子垂直居中的方法"><a href="#盒子垂直居中的方法" class="headerlink" title="盒子垂直居中的方法"></a>盒子垂直居中的方法</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1) 首先给子盒子一个绝对定位,给父盒子一个相对定位</span><br><span class="line">2) 让子盒子向下移动父盒子的一半</span><br><span class="line">3) 然后让子盒子向上移动自身的一半</span><br></pre></td></tr></table></figure>
+<h4 id="水平居中的方法"><a href="#水平居中的方法" class="headerlink" title="水平居中的方法"></a>水平居中的方法</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1) 使用 margin 0 auto</span><br></pre></td></tr></table></figure>
+<h4 id="盒子居中"><a href="#盒子居中" class="headerlink" title="盒子居中"></a>盒子居中</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1) 首先给子盒子一个绝对定位,给父盒子一个相对定位</span><br><span class="line">2) 子盒子:top:0;left:0;right:0;bottom:0;margin:auto;</span><br></pre></td></tr></table></figure>
+<h4 id="多行文本添加…号"><a href="#多行文本添加…号" class="headerlink" title="多行文本添加…号"></a>多行文本添加…号</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">white-space:nowrap</span><br><span class="line">overflow:hidden</span><br><span class="line">text-overflow:ellipsis</span><br></pre></td></tr></table></figure>
+<h4 id="css3"><a href="#css3" class="headerlink" title="css3"></a>css3</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">perspective: xx px                                     激活3d空间</span><br><span class="line">transform-style:preserve-3d                            开启3d</span><br><span class="line">transform:translate(x,y,z)                             沿着某个轴移动</span><br><span class="line">transfrom:scale(倍数)                                  放大缩小</span><br><span class="line">opacity:(0-1之间)                                      透明度</span><br><span class="line">text-shadow:颜色 x偏移 y偏移 (模糊度)px                文本阴影</span><br><span class="line">box-shadow:                                            盒模型阴影</span><br><span class="line">text-stroke:4px 颜色                                   文字描边</span><br><span class="line">@media                                                 媒体查询</span><br><span class="line">background:linear-gradient(red,blue)                   渐变</span><br><span class="line">@keyframes move(关键帧名字)                            设置关键帧</span><br><span class="line">animation                                              动画</span><br></pre></td></tr></table></figure>
+<h4 id="css隐藏"><a href="#css隐藏" class="headerlink" title="css隐藏"></a>css隐藏</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1) display:none 隐藏后不占据额外空间，它会产生回流和重绘</span><br><span class="line">2) visibility:hidden 元素虽然隐藏了，但它们仍然占据着空间，它们俩只会引起页面重绘</span><br><span class="line">3) opacity:0 元素虽然隐藏了，但它们仍然占据着空间，它们俩只会引起页面重绘 &#x2F;对应的元素的事件监听器还会触发</span><br></pre></td></tr></table></figure>
+
+<h2 id="js"><a href="#js" class="headerlink" title="js"></a>js</h2><h4 id="判断数据类型"><a href="#判断数据类型" class="headerlink" title="判断数据类型"></a>判断数据类型</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">方法:</span><br><span class="line">    typeof  不能判断出null，&#123;&#125;, [] ----&gt;返回值都为object</span><br><span class="line">    object.prototype.tostring.call()</span><br><span class="line">    instanceof  返回true或false</span><br></pre></td></tr></table></figure>
+<h4 id="innerHtml与innerText"><a href="#innerHtml与innerText" class="headerlink" title="innerHtml与innerText"></a>innerHtml与innerText</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">innerHtml: 获取内容时,如果内容中有标签,会把标签获取到   &#x2F;原封不动的取到内容</span><br><span class="line">innerText: 获取内容时,如果内容中有标签,会把标签过滤掉   &#x2F;会把前后的换行,空白都去掉</span><br></pre></td></tr></table></figure>
+<h4 id="Math工具对象"><a href="#Math工具对象" class="headerlink" title="Math工具对象"></a>Math工具对象</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Math.floor() 取整</span><br><span class="line">Math.random() 随机数</span><br><span class="line">Math.max(1,2,34,5) 返回最大数</span><br><span class="line">Math.max.apply(null, [&#39;1&#39;,&#39;2&#39;,&#39;3&#39;,&#39;4&#39;])  返回数组最大值</span><br></pre></td></tr></table></figure>
+<h4 id="函数var的理解"><a href="#函数var的理解" class="headerlink" title="函数var的理解"></a>函数var的理解</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1) 在函数作用域中,如果函数形参没有,函数内部也没有var,但是定义了一个变量,那么全局如果有对应的变量,那么就是操作</span><br><span class="line">   全局变量,如果全局没有,那就是在全局定义一个var的变量</span><br><span class="line">2) 形参相当于在函数中var了一个变量</span><br></pre></td></tr></table></figure>
+<h4 id="作用域与作用域链"><a href="#作用域与作用域链" class="headerlink" title="作用域与作用域链"></a>作用域与作用域链</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">1. 作用域</span><br><span class="line">    变量起作用的范围, 作用域分为全局作用域和局部作用域(函数作用域), 隔离变量,防止变量命名污染</span><br><span class="line">2. 作用域链</span><br><span class="line">    当从局部函数查找某一属性或方法时,先去自身的变量对象当中去查找,如果没有,去上级执行上下文的变量对象</span><br><span class="line">    中去查找,直到找到全局执行上下文的变量,这一过程为作用域链</span><br><span class="line">    作用域链的作用是保证执行环境里有权访问的变量和函数是有序的</span><br></pre></td></tr></table></figure>
+<h4 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1. 特性:</span><br><span class="line">     函数嵌套函数,函数内部可以引用外部的参数和变量,参数和变量不会被垃圾回收机制回收</span><br><span class="line">     所谓的闭包是一个引用关系,该引用关系存在于内部函数中,引用的是外部函数的变量对象</span><br><span class="line">2. 缺点:</span><br><span class="line">     常驻内存,会增大内存使用量,使用不当很容易造成内存泄漏</span><br><span class="line">3. 作用:</span><br><span class="line">     延长外部函数变量对象的声明周期,让函数外部可以操作到函数内部的数据</span><br></pre></td></tr></table></figure>
+<h4 id="原型链"><a href="#原型链" class="headerlink" title="原型链"></a>原型链</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">1. 作用:用于查找对象的属性</span><br><span class="line">2. 理解:</span><br><span class="line">     实例对象上都会有一个隐式原型属性(_proto_),它指向的就是原型对象,原型对象上也有一个(_porto_)指向它的原型对象</span><br><span class="line">     构造函数对象上都有一个显示原型属性(prototype),它指向的就是原型对象</span><br><span class="line">     每一个原型对象都会有一个constructor属性,指回构造函数</span><br><span class="line">3. 查找方式:</span><br><span class="line">     当从一个对象那里调取属性或方法时,如果该对象自身不存在这样的属性或方法,就回去自己关联的prototype对象那里找,直到</span><br><span class="line">     找到undefined</span><br></pre></td></tr></table></figure>
+<h4 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 三大特征:封装, 继承, 多态</span><br><span class="line">2. 继承:让子类型的原型是父类型的实例</span><br><span class="line">   eg: Teacher.prototype &#x3D; new Person()</span><br></pre></td></tr></table></figure>
+<h4 id="执行上下文"><a href="#执行上下文" class="headerlink" title="执行上下文"></a>执行上下文</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">1. 种类:全局执行上下文   函数执行上下文</span><br><span class="line">2. 执行过程:(创建阶段,执行阶段)</span><br><span class="line">    创建阶段:</span><br><span class="line">        1)收集变量形成变量对象(函数,var)</span><br><span class="line">        2)确定this指向</span><br><span class="line">        3)创建自身执行上下文的作用域</span><br><span class="line">    执行阶段:</span><br><span class="line">        1)为变量真正赋值</span><br><span class="line">        2)顺着作用域链查找要使用的变量或函数执行</span><br></pre></td></tr></table></figure>
+<h4 id="区别call-apply-bind"><a href="#区别call-apply-bind" class="headerlink" title="区别call(),apply(),bind()"></a>区别call(),apply(),bind()</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">call()&#x2F;apply():调用函数,指定函数中this为第一个参数值</span><br><span class="line">bind()返回一个新函数,新函数内部调用原来函数,且this指定第一个参数值</span><br><span class="line">应用:call&#x2F;bind  根据伪数组生成真数组</span><br></pre></td></tr></table></figure>
+<h4 id="函数防抖与节流"><a href="#函数防抖与节流" class="headerlink" title="函数防抖与节流"></a>函数防抖与节流</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1. 产生原因</span><br><span class="line">    浏览器事件,触发频率高,造成浏览器性能问题</span><br><span class="line">    向后台发送请求,对服务器造成不必要的压力</span><br><span class="line">2. 函数节流:</span><br><span class="line">    函数触发时,函数执行一次后,只有大于设定的执行周期后才会执行第二次,适合多次事件按时间做平均分配触发</span><br><span class="line">   函数防抖:</span><br><span class="line">    函数触发时,在规定时间内,只让最后一次生效,前面不生效,适合多次事件一次响应</span><br></pre></td></tr></table></figure>
+<h4 id="new所干的事"><a href="#new所干的事" class="headerlink" title="new所干的事"></a>new所干的事</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1)开辟一块新空间 2)执行函数之前,将函数this指向window变为指向这个空间 3)执行函数代码 4)生成实例对象返回</span><br></pre></td></tr></table></figure>
+<h2 id="ES6-ES5"><a href="#ES6-ES5" class="headerlink" title="ES6/ES5"></a>ES6/ES5</h2><h4 id="字符串方法"><a href="#字符串方法" class="headerlink" title="字符串方法"></a>字符串方法</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">split()            串转数组</span><br><span class="line">charAt(下标)       查找字符串下标代表字符</span><br><span class="line">indexof(&quot;字符&quot;)    查找字符所在字符串的下标</span><br><span class="line">length             字符长度</span><br><span class="line">replace()          替换</span><br><span class="line">search(&quot;b&quot;)        查找下标</span><br><span class="line">slice(1,2)         截取,1,2代表下标,不包含第二个下标</span><br><span class="line">substr(1,2)        截取,1代表下标,2代表截2个</span><br></pre></td></tr></table></figure>
+<h4 id="数组方法"><a href="#数组方法" class="headerlink" title="数组方法"></a>数组方法</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">concat()           数组拼接</span><br><span class="line">join()             将数组转化为字符串</span><br><span class="line">reverse()          将数组进行翻转</span><br><span class="line">slice()            数组截取</span><br><span class="line">pop()              末尾删除一个元素,返回删除元素</span><br><span class="line">shift()            开头删除一个元素,返回删除元素</span><br><span class="line">push()             末尾添加一个元素,返回数组长度</span><br><span class="line">unshift()          开头添加一个元素,返回数组长度</span><br><span class="line">splice()           万能方法</span><br><span class="line">返回新数组,不改变原数组:</span><br><span class="line">map() console.log(arr.map((item,index)&#x3D;&gt;item+10))  &#x2F;&#x2F;每个数+10 </span><br><span class="line">reduce() console.log(arr.reduce((preTotal,item,index)&#x3D;&gt;preTotal+(item%2&#x3D;&#x3D;1?item:0),0))  &#x2F;&#x2F;质数求和</span><br><span class="line">filter() console.log(arr.filter((item,index)&#x3D;&gt;item&gt;8 &amp;&amp; index%2&#x3D;&#x3D;&#x3D;0))     &#x2F;&#x2F;过滤出对应的数</span><br><span class="line">find() console.log(arr.find((item,index)&#x3D;&gt;item&gt;8 &amp;&amp; index%2&#x3D;&#x3D;&#x3D;0))         &#x2F;&#x2F;查找符合条件的第一个数</span><br><span class="line">findIndex() console.log(arr.findIndex(item,index)&#x3D;&gt;item&gt;8 &amp;&amp; index%2&#x3D;&#x3D;&#x3D;0))  &#x2F;&#x2F;寻找的是下标</span><br><span class="line">every() console.log(arr.every(item,index)&#x3D;&gt;index%2&#x3D;&#x3D;&#x3D;1||item%2&#x3D;&#x3D;&#x3D;1))       &#x2F;&#x2F;返回布尔值 全部符合</span><br><span class="line">some() console.log(arr.some(item,index)&#x3D;&gt;index%2&#x3D;&#x3D;&#x3D;1||item%2&#x3D;&#x3D;&#x3D;1)          &#x2F;&#x2F;返回布尔值 有符合的</span><br></pre></td></tr></table></figure>
+<h4 id="箭头函数"><a href="#箭头函数" class="headerlink" title="箭头函数"></a>箭头函数</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 在使用&#x3D;&gt;定义函数的时候，this的指向是定义时所在的对象，而不是使用时所在的对象 </span><br><span class="line">2. 不能够用作构造函数，这就是说，不能够使用new命令，否则就会抛出一个错误</span><br><span class="line">3. 不能够使用arguments对象</span><br></pre></td></tr></table></figure>
+<h4 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">栈数据结构, 队列数据结构, set数据结构(数组), map数据结构(二维数组)</span><br></pre></td></tr></table></figure>
+<h4 id="自定义检测数据类型方法"><a href="#自定义检测数据类型方法" class="headerlink" title="自定义检测数据类型方法"></a>自定义检测数据类型方法</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">function checkoutType(target)&#123;</span><br><span class="line">    return object.prototype.toString.call(target).slice(8,-1)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="克隆-深-浅"><a href="#克隆-深-浅" class="headerlink" title="克隆(深/浅)"></a>克隆(深/浅)</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line">1. 什么是克隆(克隆必须是一个引用数据类型)</span><br><span class="line">    将一个对象里面的所有属性及属性值完全的枚举到一个新的对象里,</span><br><span class="line">    修改新对象里的属性或属性值,原对象也不会发生变化.</span><br><span class="line">2. 判断深拷贝还是浅拷贝,数据类型不能是基本数据类型,必须是引用数据类型  </span><br><span class="line">3. 浅拷贝:</span><br><span class="line">    * 修改拷贝之后的数据会不会影响原数据,如果会,则为浅拷贝</span><br><span class="line">    * arr.concat()--&gt;数组拼接  arr.slice()数组截取</span><br><span class="line">    * object.assign(target, source1,source2..) &#x2F;&#x2F;将原对象身上的属性复制到目标对象身上</span><br><span class="line">4. 深拷贝:</span><br><span class="line">    * 修改拷贝之后的数据会不会影响原数据,如果不会,则为深拷贝</span><br><span class="line">    * JSON.parse(JSON.stringify(arr&#x2F;obj)) 将json数据和原生的js对象&#x2F;数组相互转换</span><br><span class="line">5. 手写深拷贝(大厂)</span><br><span class="line">  function checkoutType(target) &#123;</span><br><span class="line">    return Object.prototype.toString.call(target).slice(8, -1);</span><br><span class="line">  &#125;</span><br><span class="line">  function clone(target) &#123;</span><br><span class="line">    let result; &#x2F;&#x2F; 最终加工拷贝完的数据</span><br><span class="line">    &#x2F;&#x2F; 判断拷贝的数据是对象 || 数组 || 其他(基本数据类型，函数)， 检测数据类型</span><br><span class="line">    let targetType &#x3D; checkoutType(target);</span><br><span class="line">    if(targetType &#x3D;&#x3D;&#x3D; &#39;Array&#39;)&#123;</span><br><span class="line">      result &#x3D; [];</span><br><span class="line">    &#125;else if(targetType &#x3D;&#x3D;&#x3D; &#39;Object&#39;)&#123;</span><br><span class="line">      result &#x3D; &#123;&#125;;</span><br><span class="line">    &#125;else &#123;</span><br><span class="line">      return target;</span><br><span class="line">    &#125;</span><br><span class="line">    &#x2F;&#x2F; 拷贝</span><br><span class="line">    &#x2F;&#x2F; arr &#x3D; [1,2,3] &#x3D;&#x3D;&#x3D;&#x3D;&gt; []arr2</span><br><span class="line">    &#x2F;&#x2F; obj &#x3D; &#123;username: &#39;kobe&#39;&#125; &#x3D;&#x3D;&#x3D;&gt; &#123;&#125;obj2</span><br><span class="line">    for(let item in target)&#123;</span><br><span class="line">      &#x2F;&#x2F; item: 对象(key)， 数组(index)</span><br><span class="line">      &#x2F;&#x2F; target[item] 可以获取对应的value</span><br><span class="line">      let value &#x3D; target[item];</span><br><span class="line">      &#x2F;&#x2F; arr2[item] &#x3D; arr[item]</span><br><span class="line">      &#x2F;&#x2F; 判断是否是引用数据类型</span><br><span class="line">      if(checkoutType(value) &#x3D;&#x3D;&#x3D; &#39;Object&#39; || &#39;Array&#39;)&#123;</span><br><span class="line">        result[item] &#x3D; clone(value);</span><br><span class="line">      &#125;else &#123;</span><br><span class="line">        result[item] &#x3D; value;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    return result;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+<h4 id="类的使用继承"><a href="#类的使用继承" class="headerlink" title="类的使用继承"></a>类的使用继承</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">1. 定义一个类</span><br><span class="line">    class 类名&#123;</span><br><span class="line">      &#x2F;&#x2F;类的构造方法</span><br><span class="line">      constructor(name,age)&#123;  &#x2F;&#x2F;相当于加了一个function</span><br><span class="line">         this.name&#x3D;name;</span><br><span class="line">         this.age&#x3D;age</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">2. 使用类  &#x2F;&#x2F;同构造函数使用方式一样</span><br><span class="line">    let 类名1 &#x3D; new 类名(&#39;kobe&#39;,12)</span><br><span class="line">3. 给类的这个对象(类名)添加自身属性时有两种方式:</span><br><span class="line">    1)在外面定义   eg: 类名.属性&#x3D;&#39;自身属性&#39;</span><br><span class="line">    2)在定义的类里面使用static   eg:static 属性&#x3D;&#39;属性值&#39;</span><br><span class="line">4. 类的继承(extends    super() )   </span><br><span class="line">    1)让子类继承父类</span><br><span class="line">      class child(子类) extends person(父类)&#123;</span><br><span class="line">         &#x2F;&#x2F;在子类中定义构造方法</span><br><span class="line">           constructor()&#123;</span><br><span class="line">               super(); &#x2F;&#x2F;调用父类的构造方法(必须有,要不然报错)</span><br><span class="line">           &#125;</span><br><span class="line">      &#125;</span><br><span class="line">5. extends干了那些事情      </span><br><span class="line">    让子类型的原型成为父类的实例</span><br><span class="line">    1)先在自身找,如过没有,就去子类的原型去找</span><br><span class="line">    2)如果也没有,就去父类的原型中去找(extends方法会插入的)</span><br><span class="line">    3)然后才到object原型中找</span><br></pre></td></tr></table></figure>
+<h4 id="cookie的使用及概念"><a href="#cookie的使用及概念" class="headerlink" title="cookie的使用及概念"></a>cookie的使用及概念</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">1. web储存:</span><br><span class="line">    1) localStorage  数据保留到通过JavaScript删除或者是用户请求浏览器缓存</span><br><span class="line">    2) sessionStorage  也就是改数据只保持到浏览器关闭</span><br><span class="line">    3) cookie (cookie 数据存放在客户端，session 数据放在服务器端) </span><br><span class="line">2. cookie原理:</span><br><span class="line">    第一次访问网站的时候，浏览器发出请求，服务器响应请求后，会将cookie放入到响应请求中，在浏览</span><br><span class="line">    器第二次发请求的时候，会把cookie带过去，服务端会辨别用户身份，当然服务器也可以修改cookie内容</span><br><span class="line">3. cookie设置时间</span><br><span class="line">    1) Max-Age为正数时，cookie会在Max-Age秒之后，被删除</span><br><span class="line">    2) 当Max-Age为负数时，表示的是临时储存，不会生出cookie文件，只会存在浏览器内存中，且只会在打开的浏览器窗口或者子窗口有效，一旦浏览器关闭，cookie就会消失</span><br><span class="line">    3) Max-Age为0,在浏览器会话结束时过期</span><br></pre></td></tr></table></figure>
+<h4 id="token的理解及使用"><a href="#token的理解及使用" class="headerlink" title="token的理解及使用"></a>token的理解及使用</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">1). 作用</span><br><span class="line">        a. 是一个包含特定信息的字符串:　id &#x2F; 失效的时间</span><br><span class="line">        a. 对请求进行一定的检查限制, 防止恶意请求</span><br><span class="line">        b. 后台部分接口需要进行token验证  &#x3D;&#x3D;&gt; 只有请求这些接口时才携带token</span><br><span class="line">    2). 使用流程</span><br><span class="line">        a. 客户端发送登陆的请求, 服务器端进行用户名和密码查询, </span><br><span class="line">            如果user存在, 根据user的id值生成token(指定了有效期), 将user和token返回给客户端</span><br><span class="line">        b. 客户端接收到登陆成功的响应后, 将token保存localStorage, 将user和token保存在vuex的state</span><br><span class="line">        c. 在请求需要授权检查的接口前(在请求拦截器做)</span><br><span class="line">            如果token不存在, 不发请求, 直接进行错误流程(响应拦截器的错误处理): throw error对象(status: 401)</span><br><span class="line">            如果token存在, 将token添加到请求头中: config.headers.Authorization &#x3D; token</span><br><span class="line">        d. 在响应拦截器中处理错误</span><br><span class="line">            1). 如果error中没有response</span><br><span class="line">                如果当前没有在登陆页面, 跳转到登陆页面</span><br><span class="line">            2). 如果error中有response, 取出response中的status</span><br><span class="line">                status为: 401: token过期了, 退出登陆(清除local中的token和state中user与token), 并跳转到登陆页面</span><br><span class="line">                status为: 404: 提示访问的资源不存在</span><br><span class="line">&#96;&#96;&#96;                </span><br><span class="line">#### valueOf()与toString()的区别</span><br></pre></td></tr></table></figure>
+<p>toString()方法：返回对象的字符串表示<br>valueOf()方法：返回指定对象的原始值</p>
+<p>eg:<br>默认情况，会调用toString()方法。例如：<br>var cc = {};<br>alert(cc);// [object Object]<br>var fun = function() {} ;<br>alert(fun);//  function() {}<br>var arr = [1];<br>alert(arr); // 1</p>
+<p>从上面的代码来看，默认情况会调用对象的toString()方法，返回对象的字符串表示。</p>
+<p>下面看看重写对象的toString()与valueOf()方法，并且同时存在时会发生什么：</p>
+<p>var bbb = {<br>  i: 10,<br>  toString: function() {<br>    console.log(‘toString’);<br>    return this.i;<br>  },<br>  valueOf: function() {<br>    console.log(‘valueOf’);<br>    return this.i;<br>  }<br>}<br> alert(bbb);// 10 toString<br> alert(+bbb); // 10 valueOf<br> alert(‘’+bbb); // 10 valueOf<br> alert(String(bbb)); // 10 toString<br> alert(Number(bbb)); // 10 valueOf<br> alert(bbb == ‘10’); // true valueOf</p>
+<p>二者并存的情况下，在数值运算中，优先调用了valueOf，字符串运算中，优先调用了toString。而’ ‘+bbb是字符串操作，为啥也是调用valueOf，那是因为，存在操作符，valueOf的优先级高于toString。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 简述事件委托原理</span><br></pre></td></tr></table></figure>
+<p>原理:事件绑定在父元素上,当点击某个子元素是时,子元素会通过冒泡到父元素上<br>     父元素即可判断事件触发是哪个子元素<br>代码:<br>   //找到父元素，添加监听器。。。<br>  document.getElementById(‘父元素’).addEventListener(‘click’, function (e) {<br>    //e.target是被点击的元素<br>    //如果被点击的是li元素<br>    if(e.target &amp;&amp; e.target.nodeName == ‘子元素’) {<br>        //执行操作，，，<br>        console.log(‘List item’, e.target.id.replace(‘post-‘), “was clicked”)<br>    }<br>})</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### json与xml的比较</span><br></pre></td></tr></table></figure>
+<p>JSON相对于XML来讲，数据的体积小，传递的速度更快些<br>JSON与JavaScript的交互更加方便，更容易解析处理，更好的数据交互<br>JSON对数据的描述性比XML较差<br>JSON的速度要远远快于XML</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">## 框架 vue及react</span><br><span class="line">### vue:</span><br><span class="line">#### 1.Vue的MVVM理解:</span><br></pre></td></tr></table></figure>
+<p>首先:M指的是model(模型),vue中的data(为view提供数据,data是一个对象)<br>     v指的是view(视图),vue中是模板页面(显示data中数据)<br>     vm:viewmodel(视图模型),vue中vue的实例对象(数据绑定,dom监听)<br>然后:model中的data是一个对象,里面包含着数据,为view提供数据,data中的数据一旦发生改变,页面<br>     也会自动改变.页面之所以改变,是靠vm(vue的实例),在vm中有两个功能,DataBindings(数据绑定)<br>     和DomListener(dom监听);DataBindings作用只要数据发生改变,就会触发页面更新;DomListener<br>     作用是将对view进行事件监听,从而进行将数据更新在data中,data中数据改变触发页面的改变.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 2.区别单向数据流与双向数据绑定</span><br></pre></td></tr></table></figure>
+<p>单项数据流:<br>  模板页面(view)用来显示数据,数据从State(data)中来.<br>  对模板页面进行dom操作,会调用Action(methods),Action会调用方法来修改数据<br>  状态数据State(data)被修改,会对页面进行更新<br>双向数据绑定:<br>  vue.js采用数据劫持方式,结合发布者-订阅者模式,通过Object.defineProperty()来劫持各个属性的setter,<br>  getter以监听属性的变动,在数据变动时发布消息给订阅者,触发相应的监听回调<br>单项数据与双向数据的区别:<br>  双向数据绑定不会经过action<br>vue原理:<br>  MVVM作为绑定的入口，整合Observe,Compil和Watcher三者，通过Observe来监听model的变化通过Compil来解<br>  析编译模版指令，最终利用Watcher搭起Observe和Compil之前的通信桥梁从而达到数据变化 =&gt; 更新视图，视<br>  图交互变化(input) =&gt; 数据model变更的双向绑定效果</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 3.Vue组件的生命周期函数</span><br></pre></td></tr></table></figure>
+<p>beforeCreate(创建前):    在数据观测和初始化事件还未开始<br>Created(创建后):         完成数据观测,属性和方法运算,$el属性还没显示出来<br>beforeMount(挂载前):     生成html,但还没有挂载到页面上<br>Mounted(挂载后):         异步任务(发送ajax请求/启动定时器)<br>beforeUpdate(更新前)<br>Updated(更新后):         在服务器端渲染期间不被调用<br>beforeDestroy(销毁前):   收尾工作(清除定时器)<br>destroy(销毁后):         在服务器端渲染期间不被调用<br>deactivated():           路由组件失活,但没有死亡<br>activated():             路由组件激活,被复用</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 4.Vue路由守卫有哪些，怎么设置，使用场景等</span><br></pre></td></tr></table></figure>
+<ol>
+<li>全局守卫:<br> router.beforeEach 全局前置守卫 进入路由之前<br> router.beforeResolve 全局解析守卫(2.5.0+) 在beforeRouteEnter调用之后调用<br> router.afterEach 全局后置钩子 进入路由之后<br>路由独享守卫:<br> beforeEnter<br>路由组件内的守卫:<br> beforeRouteEnter 进入路由前<br> beforeRouteUpdate (2.2) 路由复用同一个组件时<br> beforeRouteLeave 离开当前路由时</li>
+<li>常用的两个路由守卫：router.beforeEach 和 router.afterEach</li>
+<li>每个守卫方法接收三个参数：<br> to: Route: 即将要进入的目标 路由对象<br> from: Route: 当前导航正要离开的路由<br> next: Function: 一定要调用该方法来 resolve 这个钩子。<br>在项目中，一般在beforeEach这个钩子函数中进行路由跳转的一些信息判断。判断是否登录，是否拿到对应的路由权限等等<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 5.Vue组件间通信方式</span><br></pre></td></tr></table></figure>
+1). props<br>父子组件间通信的基本方式<br> 属性值的2大类型: <pre><code>一般: 父组件--&gt;子组件
+函数: 子组件--&gt;父组件</code></pre>隔层组件间传递: 必须逐层传递(麻烦)<br>兄弟组件间: 必须借助父组件(麻烦)<br>2). vue自定义事件(事件总线)<br>通过$emit方法发出一个消息,$on接收这个消息<br>子组件与父组件的通信方式<br> 用来取代function props<br> 不适合隔层组件和兄弟组件间的通信<br>3). 消息订阅和发布<br>适合于任何关系的组件间通信<br>缺点: 管理不够集中<br>4). vuex<br>多组件共享状态(数据的管理)<br> 组件间的关系也没有限制<br> 功能比pubsub强大, 更适用于vue项目<br>5). slot<br>通信是带数据的标签<br> 注意: 标签是在父组件中解析<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 6.vue路由组件优化</span><br></pre></td></tr></table></figure>
+1）缓存组件对象<br>keep-alive<br>2）路由组件懒加载<br>是什么：<br>  1) 在打包时路由组件会被单独打包(代码分割)<br>  2）默认不请求加载路由组件打包文件，当请求需要路由组件时才请求加载<br>import动态引入路由模块  import（模块路径）<br>结果：被引入的模块会被单独打包(代码分割)<br>原来这样引入路由组件：import MSite from “@路径”<br>现在这样引入路由组件：const MSite = () =&gt; import(“@路径”)<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 7.图片懒加载</span><br></pre></td></tr></table></figure>
+1) 为什么：<br> 当页面的图片太多时，如果浏览器全部加载会影响加载速度，所以我们对未出现在可视区域的<br> 图片不做加载，等滚动到可视区域在做加载<br>2）原理：<br> 在img标签中不设置src属性，自定义设置一个属性(data-src),控制加载时src代替data-src<br> 使用dataset来读取我们设置的自定义属性<br>3）判断图片是否出现在了视口<br> 1）Element.getBoundingClientRect().top &lt; document.documentElement.clientHeight<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 8.Vue的路由跳转与路由传参</span><br></pre></td></tr></table></figure></li>
+<li>路由跳转:<br>  1)定义所需要的路由组件<br>  2)定义一个路由器对象模块<br>  3)在路由器对象中配置所有应用的路由(routes:[{}])<br>  4)配置路由{path(路由组件路径),component(路由组件名)}<br>  5)注册路由器在入口文件<br>注:动态路由 path:’/home/message/detail/:id’ 在配置路径时有一个动态的值(如:id)    </li>
+</ol>
+<p>2.路由跳转方式<br>   1)通过<router-link :to="...">       链接跳转(声明式跳转)<br>   2)通过router.push(…)              编程跳转(命令式)<br>3.普通跳转你<br>   1)<a href="..."></a>     声明式跳转(链接跳转)<br>   2)windown.location       命令式跳转(js)<br>4.动态路由有两种写法<br>   1)<router-link :to="'/home/message/detail/'+m.id">  //双引号+单引号<br>   2)<router-link :to="`/home/message/detail/${m.id}`">  //ES6写法<br>5.路由的hash模式及history模式<br>   hash模式:<br>     路径中带#号: <a href="http://location:8080/#/home/news" target="_blank" rel="noopener">http://location:8080/#/home/news</a><br>     发送请求的路径: <a href="http://location:8080" target="_blank" rel="noopener">http://location:8080</a>   (项目根路径)<br>     响应:返回的总是index页面  ===&gt;path被解析为前台路由路径<br>   history模式:<br>     路径不带#号: <a href="http://location:8080/home/news" target="_blank" rel="noopener">http://location:8080/home/news</a><br>     发送请求的路径: <a href="http://location:8080/home/news" target="_blank" rel="noopener">http://location:8080/home/news</a><br>     响应:404错误<br>     希望:返回index页面,path被解析为前台路由路径<br>     解决:修改配置(但用vue脚手架已自动配置)<br>       devServer:historyApiFallback: true,<br>       output:publicPath:’/‘,引入打包文件时路径以/开头<br>6.缓存路由组件:<br>     情景:切换组件时,组件会执行销毁和创建过程,要想保存组件原有属性.<br>     语法:<keep-alive><br>            <router-view></router-view><br>          </keep-alive></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 9.vue中的key的作用&#x2F;内部原理是什么</span><br></pre></td></tr></table></figure>
+<ul>
+<li>key会用在虚拟DOM算法（diff算法）中，用来辨别新旧节点。</li>
+<li>不带key的时候会最大限度减少元素的变动，尽可能用相同元素。（就地复用）</li>
+<li>带key的时候，会基于相同的key来进行排列。（相同的复用）</li>
+<li>带key还能触发过渡效果，以及触发组件的生命周期<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 10.高阶函数与高阶组件</span><br></pre></td></tr></table></figure>
+高阶函数:<br>是对其他函数进行操作的函数，操作可以是将它们作为参数，或者是返回它们。 简单来说，高阶函数是一个接收函数作为参数或将函数作为输出返回的函数。<br>例如: Array.prototype.map，Array.prototype.filter 和 Array.prototype.reduce 是语言中内置的一些高阶函数<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 11.Vue的常用指令使用</span><br></pre></td></tr></table></figure>
+v-for:遍历 , v-model:双向数据绑定 , v-on:绑定事件(简写@) , v-if/v-show:显示与隐藏<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 12.vue的常用修饰符</span><br></pre></td></tr></table></figure>
+.prevent: 拦截默认事件  .stop: 阻止事件冒泡  .self:事件发生在该元素,不是子元素  .passive:不拦截默认事件<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 13.vue.set()&#x2F;$set</span><br></pre></td></tr></table></figure>
+1, 为什么使用$set<br> 明明更改了数据，然而浏览器的dom却没有更新新的数据，有时候会出现操作一下其他数据，之前更新的数据才渲染到dom，有时候不管怎么操作都不会更新<br>2, 原理<ul>
+<li>每个组件都是继承了vue的原型，所以组件实例化后会在this上挂载一个$se   t方法，和Vue.set是一样的</li>
+<li>向响应式对象中添加一个属性，并确保这个新属性同样是响应式的，且触发   视图更新。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 14.Vue组件的定义和使用</span><br></pre></td></tr></table></figure>
+1) 组件中的data配置必须是返回对象的函数(原因)保证组件的多个实例都有自己的data实例<br>2) 组件定义与使用:<ul>
+<li>将页面拆分成多个组件 (新建组件 eg:mian.vue)</li>
+<li>将所有组件组合起来在app.vue中<br>  1)引入所有定义的组件         eg:import Mian from ‘mian组件路径’<br>  2)注册所有定义的组件         eg:components:{mian}<br>  3)利用组件标签显示Mian组件   eg:<Mian/><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 15.搭建Vue的webpack打包环境</span><br></pre></td></tr></table></figure>
+1)见上个vue-webpack组件搭建<br>//模块化规范<br>2)ES6       暴露:export default            引入:import<br>CommonJS  暴露:module.exports/exports    引入:require<br>3)区分使用生产环境与开发环境<br>生产环境:<br>npm run build  ===&gt;webpack<br>1) 在内存中进行编译打包,生成内存中的打包文件<br>2) 保存到本地(在本地生成打包文件)<br>开发环境:<br>npm run dev  ===&gt;webpack-dev-server<br>1) 在内存中进行编译打包,生成内存中的打包文件<br>2) 调动服务器,运行内存中的打包文件 ===&gt;可以通过浏览器虚拟访问<br>4)常用webpack配置<br>1) entry(入口), output(出口), module(模块loder), plugins(插件)===&gt;必须<br>2) webpack-dev-server (解决修改代码,重新打包问题)<br>3) source-map (开启代码调试)<br>4)在module中可以添加处理es6语法,css语法,图片处理等的loder<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 16.Vue组件中ajax请求</span><br></pre></td></tr></table></figure>
+1, 两种方法:<br>1)yarn add vue-resource     vue-resource库(适用于vue1.0版本) <h1 id="vue-use-vueResource-内部给多个组件对象添加了一个属性对象-http"><a href="#vue-use-vueResource-内部给多个组件对象添加了一个属性对象-http" class="headerlink" title="//vue.use(vueResource)//内部给多个组件对象添加了一个属性对象:$http"></a>//vue.use(vueResource)//内部给多个组件对象添加了一个属性对象:$http</h1>2)yarn add axios            axios(现在常用)<br>//具体见vue ajax文件<br>2, 请求出现跨域问题<br>1)代理配置<br>2)后台配置: res.set(‘Access-Control-Allow-Origin’, ‘<a href="http://localhost:63342&#39;">http://localhost:63342&#39;</a>);<br>3)JSONP解决发送请求跨域问题<br>3, axios与fetch区别<br>fetch:(兼容性不好,但标准)<br>fetch(“请求地址”).then(res={<br>return res.json()  //拿不到数据,只拿到数据请求头<br>}).then(res=&gt;{<br>console.log(res)   //拿到真实数据<br>})<br>注:必须有两个.then  一个拿请求头,一个拿数据<br>axios:(请求库)<br>axios.get(“请求地址”).then(res=&gt;{<br>console.log(res.data)  //axios自动包装data属性,才能拿到数据<br>}).catch(err=&gt;{<br>console.log(err)<br>})<br>注:axios会对数据进行一个包装,要想拿到数据res.data才能拿到<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 17.vue中数据来源</span><br></pre></td></tr></table></figure>
+1) 来自于data中<br>2) 来自有props(外面数据)<br>3) 来自于computed(内部计算的数据)<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 7.vuex理解与使用</span><br></pre></td></tr></table></figure>
+1) 下载vuex   yarn add vuex<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 8.vue脚手架问题</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>脚手架2与3的区别<br>  脚手架2的配置文件是直接暴露出来的<br>  脚手架3的配置文件没有直接暴露出来，我们可以通过vue.config.js来配置，有两种类型的配置vue脚手架配置和webpack的配置<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 9.开发环境与生产环境</span><br></pre></td></tr></table></figure>
+生产环境:在内存中进行打包,生成本地打包文件,不会自动启动服务器<br>开发环境:在内存中进行打包,没有生成本地打包文件,自动启动服务器运行项目<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">## 微信小程序(及移动端适配)</span><br><span class="line">#### flex布局</span><br></pre></td></tr></table></figure>
+<a href="http://www.runoob.com/w3cnote/flex-grammar.html" target="_blank" rel="noopener">http://www.runoob.com/w3cnote/flex-grammar.html</a><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 移动端适配</span><br></pre></td></tr></table></figure></li>
+<li>为什么适配:<br> a. 网页的宽度远大于手机屏幕宽度   网页宽:980px  iphone6宽:375px<br> b. 屏幕宽指的是 视觉视口   ;网页宽指的是 布局视口<br> c. 使用viewport适配 布局视口等比视觉视口<br> d. rem计算 获取屏幕宽度,将屏幕宽度等分(10份,js计算不精确)</li>
+<li>适配库:<br> a. lib-flexible 淘宝方案库,动态计算rem值<br> b. px2rem       将px值转换为rem</li>
+<li>物理像素:<br> a. 真实存在的<br> b. 屏幕上一个一个的发光点<br> c. 屏幕的分辨率(清晰度高低)</li>
+<li>css像素:<br> a. 平时写的px</li>
+<li>设备独立像素:<br> a. iphone6宽375px 可以说是375设备独立像素=375px</li>
+<li>dpr 设备像素比<br> a. dpr=物理像素/设备独立像素比<pre><code>eg:iphone6  dpr=750/375</code></pre></li>
+<li>工作中如何确定使用2x图还是3x图<br> 使用媒体查询:@mediu 可以检测屏幕大小也可计算dpr值</li>
+<li>小程序适配方案:<br>  1rpx=1物理像素=0.5px<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 小程序</span><br></pre></td></tr></table></figure></li>
+<li>特点: 小程序没有dom,一切基于组件化</li>
+<li>模块: 具备特定功能的js文件,每个模块内部的数据是私有的,向外暴露方法同其他的模块通信</li>
+<li>组件: 具备特定功能效果的代码集合</li>
+<li>四个重要文件<br> a.* .js<br> b.* .wxml —&gt; view结构 —-&gt; html<br> c.* .wxss —&gt; view样式 —–&gt; css<br> d.* .json —-&gt; view 数据 —–&gt; json文件</li>
+<li>小程序样式书写及配置<br> 1).但组件中样式写在对应组件的.wxss文件中<br> 2).如果是公共样式写在app.json中进行配置</li>
+<li>小程序重要的生命周期<br> onload:    用于发送ajax请求,前后端交互<br> onready:<br> onshow:</li>
+<li>小程序初始化数据与vue的区别:<br> vue: 初始化在data中的数据被数据劫持代理给实例对象<br> 小程序: this.data.数据  </li>
+<li>小程序,vue,react数据修改:<br> vue:  this.xxx=value<br> react:  this.setState()    //修改数据在自己的钩子函数中是异步的,在定时器中是同步的<br> 小程序:  this.setDate()  eg: this.setDate({})  //修改数据是同步的在自己的周期中和定时器中<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">## node.js</span><br><span class="line">####</span><br></pre></td></tr></table></figure>
+1) 是什么:<br> 是一个基于chrom v8引擎的js运行环境<br>2) 特点:<br> 优: 异步非阻塞的 I/O (I/O线程池)  <pre><code>特别适用于I/O密集型应用
+事件循环机制
+单线程(成也单线程,败也单线程)
+跨平台</code></pre> 缺:回调函数嵌套太多,太深(回调地狱)<pre><code>单线程处理不好cpu密集型任务  ====&gt;需要过多的判断,需要做的事情不明确/cpu密集适用于java</code></pre>3) I/O<br> I—&gt;input     O—&gt;output<br> 对文件,数据库的写入,读出<br>4)  异步非阻塞的 I/O ===&gt; 除了读还能干别的<br> 同步组塞的 I/O   ===&gt; 除了读不能干别的<br> I/O线程池:让线程池里的线程时刻处于待命状态<br> I/O密集型:频繁操作I/O<br> 单线程运行”东西”:如果想实现异步,就必须有自己的”事件循环模型”<br>5) 浏览器循环模型<br> 客户端(请求)服务器(I/O)数据库(I/O)服务器(响应)客户端<br>java循环模型<br> 客户端1(请求)服务器1(I/O)数据库(I/O)服务器1(响应)客户端<br> 客户端2(请求)服务器2(I/O)数据库(I/O)服务器2(响应)客户端<br> —-需要多个服务器,专人专用,易产生高迸发,适用于cpu密集型<br>node循环模型<br>  客户端1(请求)服务器(I/O)数据库(I/O)服务器(响应)客户端<br>  客户端2(请求)服务器(I/O)数据库(I/O)服务器(响应)客户端<br> —-需要一个服务器,利用回调来解决高迸发,适用于I/O密集型<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 回调地狱</span><br></pre></td></tr></table></figure>
+是什么:<br>回调函数嵌套调用,外部回调函数异步执行的结果是嵌套的回调函数执行的条件<br>解决方法:<br>promise链式调用  /  async/await<pre><code></code></pre></li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/03/14/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/" data-id="ck7rf2xt50000a0fmcprqgr1k" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2020/03/14/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/03/14/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/">前端面试总结</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/14/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
